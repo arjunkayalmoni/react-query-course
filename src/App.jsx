@@ -5,7 +5,7 @@ import AddIssue from "./pages/AddIssue";
 import { GithubUser } from "./components/GithubUser";
 import APIStatus from "./components/APIStatus";
 
-function App() {
+export default function App() {
 	const isRootPath = useMatch({ path: "/", end: true });
 	return (
 		<div className="App">
@@ -29,5 +29,3 @@ function App() {
 		</div>
 	);
 }
-
-export default App;
