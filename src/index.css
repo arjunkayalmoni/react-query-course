@@ -422,3 +422,18 @@ form input {
     transform: rotate(360deg);
   }
 }
+
+/* Your CSS goes here */
+.labels {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.labels > span {
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  margin-right: 0.25rem;
+  background-color: currentColor;
+}
